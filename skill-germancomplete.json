@@ -1,0 +1,2744 @@
+{
+  "name": "germancomplete",
+  "intents": [
+    {
+      "intent": "customers",
+      "examples": [
+        {
+          "text": "Für welche Kunden produzierst du aktuell?"
+        },
+        {
+          "text": "Für wen produziert @module aktuell?"
+        },
+        {
+          "text": "Für wen produziert @module?"
+        },
+        {
+          "text": "Für welchen Kunden produziert @module gerade?"
+        },
+        {
+          "text": "Für wen produzierst du?"
+        },
+        {
+          "text": "Für welche Kunden produzierst du gerade?"
+        },
+        {
+          "text": "Für wen arbeitest du?"
+        },
+        {
+          "text": "Für welchen Kunden arbeitest du?"
+        },
+        {
+          "text": "Wer ist der Auftraggeber?"
+        },
+        {
+          "text": "Für welchen Kunden produzierst du gerade?"
+        },
+        {
+          "text": "Für welchen Kunden produzierst du aktuell?"
+        },
+        {
+          "text": "Wer ist Dein Auftraggeber?"
+        },
+        {
+          "text": "Für wen bist du am produzieren?"
+        },
+        {
+          "text": "Für welchen Kunden arbeitet @module?"
+        },
+        {
+          "text": "Für welchen Kunden produziert @module aktuell?"
+        },
+        {
+          "text": "Welche Kunden hat @module?"
+        },
+        {
+          "text": "Wer sind deine Kunden?"
+        },
+        {
+          "text": "Welche Kunden hast du?"
+        }
+      ]
+    },
+    {
+      "intent": "report-details",
+      "examples": [
+        {
+          "text": "Was steht in Bericht @sys-number?"
+        },
+        {
+          "text": "Was steht in Prüfbericht @sys-number von @module?"
+        },
+        {
+          "text": "Was ist in Report @sys-number von @module?"
+        },
+        {
+          "text": "Was ist in Prüfbericht @sys-number von @module?"
+        },
+        {
+          "text": "Wie sieht der Bericht @sys-number aus?"
+        },
+        {
+          "text": "Bericht von @sys-number?"
+        },
+        {
+          "text": "Wsa steht im @nth Bericht von @module?"
+        },
+        {
+          "text": "Was steht im @nth Prüfbericht von @module?"
+        },
+        {
+          "text": "Was steht im @nth ReporT?"
+        },
+        {
+          "text": "Was steht im @nth Prüfbericht?"
+        },
+        {
+          "text": "Was steht in Prüfbericht @sys-number?"
+        },
+        {
+          "text": "Was steht in Report @sys-number?"
+        },
+        {
+          "text": "Was steht im @nth Bericht?"
+        },
+        {
+          "text": "Was steht im @nth Report von @module?"
+        },
+        {
+          "text": "Was ist in Prüfbericht @sys-number?"
+        },
+        {
+          "text": "Was ist in Report @sys-number?"
+        },
+        {
+          "text": "Was ist in Bericht @sys-number?"
+        },
+        {
+          "text": "Was steht in Bericht @sys-number von @module?"
+        },
+        {
+          "text": "Wie sieht der Bericht @sys-number von @module aus?"
+        },
+        {
+          "text": "Was ist in Bericht @sys-number von @module?"
+        },
+        {
+          "text": "Was steht in Report @sys-number von @module?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "health",
+      "examples": [
+        {
+          "text": "Wie geht's Dir?"
+        },
+        {
+          "text": "Wie fühlst du dich?"
+        },
+        {
+          "text": "Wie geht es @module gesundheitlich?"
+        },
+        {
+          "text": "Wie geht es dir gesundheitlich?"
+        },
+        {
+          "text": "Wie ist deine Gesundheit?"
+        },
+        {
+          "text": "Wie ist die Gesundheit von @module?"
+        },
+        {
+          "text": "Wie ist der Status von @module?"
+        },
+        {
+          "text": "Wie ist dein Status?"
+        },
+        {
+          "text": "alles fit?"
+        },
+        {
+          "text": "Was ist der Status von @module"
+        },
+        {
+          "text": "Wie ist der Zustand von @module"
+        },
+        {
+          "text": "Zustand @module"
+        },
+        {
+          "text": "Was ist der Zustand von @module"
+        },
+        {
+          "text": "wie ist dein zustand"
+        },
+        {
+          "text": "Wie ist geht es @module?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hallo",
+      "examples": [
+        {
+          "text": "Heyo"
+        },
+        {
+          "text": "Hallo Watson!"
+        },
+        {
+          "text": "Hey Watson!"
+        },
+        {
+          "text": "Hi Watson"
+        },
+        {
+          "text": "Hallo!"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Was geht?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "visual-recognition",
+      "examples": [
+        {
+          "text": "Was ist das?"
+        },
+        {
+          "text": "Welches Modul ist das?"
+        },
+        {
+          "text": "Welches Modul sehe ich?"
+        },
+        {
+          "text": "Welche Maschine sehe ich?"
+        },
+        {
+          "text": "Welche Maschine betrachte ich?"
+        },
+        {
+          "text": "Welches Modul steht da?"
+        },
+        {
+          "text": "Was sehe ich hier?"
+        },
+        {
+          "text": "vor welcher maschine stehe ich"
+        },
+        {
+          "text": "Welche Maschine steht da?"
+        },
+        {
+          "text": "vor welchem Modul bin ich"
+        },
+        {
+          "text": "Welche Maschine ist das?"
+        },
+        {
+          "text": "Was ist das für eine Maschine?"
+        },
+        {
+          "text": "Was ist das für ein Modul?"
+        },
+        {
+          "text": "Welche Maschine schaue ich an?"
+        },
+        {
+          "text": "Welches Modul schaue ich an?"
+        }
+      ]
+    },
+    {
+      "intent": "orders",
+      "examples": [
+        {
+          "text": "Was macht @module gerade?"
+        },
+        {
+          "text": "Was produziert @module gerade?"
+        },
+        {
+          "text": "Was produzierst du aktuell?"
+        },
+        {
+          "text": "Welche Orders liegen bei dir?"
+        },
+        {
+          "text": "Welche Orders hat @module?"
+        },
+        {
+          "text": "Welche Bestellungen bearbeitet @module gerade?"
+        },
+        {
+          "text": "Orders bei dir?"
+        },
+        {
+          "text": "Orders bei @module?"
+        },
+        {
+          "text": "Welche Bestellungen hat @module aktuell?"
+        },
+        {
+          "text": "Welche Bestellungen hast du aktuell?"
+        },
+        {
+          "text": "Welche Bestellungen bearbeitest du gerade?"
+        },
+        {
+          "text": "Welche Bestellungen bearbeitet @module aktuell?"
+        },
+        {
+          "text": "Woran arbeitest du gerade?"
+        },
+        {
+          "text": "Was produzierst @module aktuell?"
+        },
+        {
+          "text": "Welche Bestellungen bearbeitest du aktuell?"
+        },
+        {
+          "text": "Welche Orders liegen bei @module?"
+        },
+        {
+          "text": "Welche Orders hast du?"
+        },
+        {
+          "text": "Woran arbeitet @module aktuell?"
+        },
+        {
+          "text": "Was bearbeitet @module gerade?"
+        },
+        {
+          "text": "Was macht @module aktuell?"
+        },
+        {
+          "text": "Woran arbeitet @module gerade?"
+        },
+        {
+          "text": "Woran arbeitest du aktuell?"
+        },
+        {
+          "text": "Was bearbeitest du gerade?"
+        },
+        {
+          "text": "Was hast du für Orders?"
+        },
+        {
+          "text": "Was hat @module für Orders?"
+        },
+        {
+          "text": "welche bestellungen für lapp"
+        }
+      ]
+    },
+    {
+      "intent": "order",
+      "examples": [
+        {
+          "text": "Bei welcher Maschine liegt @sys-number?"
+        },
+        {
+          "text": "Bei welcher Maschine liegt Bestellung @sys-number?"
+        },
+        {
+          "text": "Wo ist die Bestellung #sys-number?"
+        },
+        {
+          "text": "Wo ist die Bestellung @sys-number?"
+        },
+        {
+          "text": "Order?"
+        },
+        {
+          "text": "Wo ist die Order @sys-number?"
+        },
+        {
+          "text": "Bei welcher Maschine liegt Bestellung #@sys-number?"
+        },
+        {
+          "text": "Wo befindet sich Order @sys-number?"
+        },
+        {
+          "text": "Bei welcher Maschine liegt Order #@sys-number?"
+        },
+        {
+          "text": "Wo ist #@sys-number?"
+        },
+        {
+          "text": "Bei welcher Maschine liegt Bestellung Nummer @sys-number?"
+        },
+        {
+          "text": "Bei welcher Maschine liegt Order Nummer @sys-numbeR?"
+        },
+        {
+          "text": "Wo befindet sich #@sys-number?"
+        },
+        {
+          "text": "Wo befindet sich @sys-number?"
+        },
+        {
+          "text": "Wo befindet sich Bestellung @sys-numbeR?"
+        },
+        {
+          "text": "Wo befindet sich Bestellung #@sys-number?"
+        },
+        {
+          "text": "Wo befindet sich Bestellung Nummer @sys-number?"
+        },
+        {
+          "text": "bestellung 47474"
+        },
+        {
+          "text": "Wo ist @sys-number?"
+        },
+        {
+          "text": "Wo befindet sich Order #@sys-number?"
+        },
+        {
+          "text": "Bei welcher Maschine liegt Order @sys-number?"
+        },
+        {
+          "text": "Wo ist Bestellung #@sys-number?"
+        },
+        {
+          "text": "Wo ist Bestellung @sys-number?"
+        },
+        {
+          "text": "Wo ist Bestellung Nummer @sys-number?"
+        },
+        {
+          "text": "Wo ist Order #@sys-number?"
+        },
+        {
+          "text": "Wo ist Order @sys-number?"
+        },
+        {
+          "text": "Bei welcher Maschine liegt #@sys-number?"
+        },
+        {
+          "text": "Wo ist Order"
+        },
+        {
+          "text": "Dies ist eine Test-Phrase für Andy"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "reports",
+      "examples": [
+        {
+          "text": "Welche Berichte wurden für @module abgegeben?"
+        },
+        {
+          "text": "Welche Prüfberichte liegen für @module vor?"
+        },
+        {
+          "text": "Welche Reports wurden für dich abgegeben?"
+        },
+        {
+          "text": "Was für Prüfberichte hat @module?"
+        },
+        {
+          "text": "Welche Prüfberichte wurden für @module abgegeben?"
+        },
+        {
+          "text": "Welche Prüfberichte wurden abgegeben für @module?"
+        },
+        {
+          "text": "Welche Prüfberichte wurden für dich abgegeben?"
+        },
+        {
+          "text": "Was für Prüfberichte hast du?"
+        },
+        {
+          "text": "Was für Berichte hast du?"
+        },
+        {
+          "text": "Welche Berichte gibt es von @module?"
+        },
+        {
+          "text": "Welche Prüfberichte gibt es von @module?"
+        },
+        {
+          "text": "Welche Reports gibt es von @module?"
+        },
+        {
+          "text": "liegen irgendwelche berichte vor?"
+        },
+        {
+          "text": "zeig mir die Berichte"
+        },
+        {
+          "text": "Welche Reports hast du?"
+        },
+        {
+          "text": "Welche Prüfberichte hat @module?"
+        },
+        {
+          "text": "Welche Berichte hast du?"
+        },
+        {
+          "text": "Was für Berichte wurden für dich abgegeben?"
+        },
+        {
+          "text": "Was für Reports hat @module?"
+        },
+        {
+          "text": "Welche Reports hat @module?"
+        },
+        {
+          "text": "Welche Reports liegen für @module vor?"
+        },
+        {
+          "text": "Welche Reports wurden abgegeben für @module?"
+        },
+        {
+          "text": "Welche Reports wurden für @module abgegeben?"
+        },
+        {
+          "text": "Was für Berichte hat @module?"
+        },
+        {
+          "text": "Welche Berichte hat @module?"
+        },
+        {
+          "text": "Welche Berichte liegen für @module vor?"
+        },
+        {
+          "text": "Welche Berichte wurden abgegeben für @module?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "position",
+      "examples": [
+        {
+          "text": "bewege dich nach @position"
+        },
+        {
+          "text": "gehe nach @position"
+        },
+        {
+          "text": "bewege dich nach Position @position"
+        },
+        {
+          "text": "an position @position fahren"
+        },
+        {
+          "text": "gehe zu Insel @position"
+        },
+        {
+          "text": "weiter zu position @position"
+        },
+        {
+          "text": "gehe in Position @position"
+        },
+        {
+          "text": "gehe zu position @position"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "attribute",
+      "examples": [
+        {
+          "text": "Was ist die @attribute von @module?"
+        },
+        {
+          "text": "Wie hoch ist die @attribute bei @module?"
+        },
+        {
+          "text": "Wie steht @attribute bei @module?"
+        },
+        {
+          "text": "Welches Level hat @attribute bei @module?"
+        },
+        {
+          "text": "Welches Level hat das @attribute bei @module?"
+        },
+        {
+          "text": "wieviel strom braucht rexroth"
+        },
+        {
+          "text": "@attribute @module"
+        },
+        {
+          "text": "stromverbrauch festo"
+        },
+        {
+          "text": "Wo ist robotino"
+        },
+        {
+          "text": "spannung robotino"
+        },
+        {
+          "text": "was ist der Mittelwert Vibrationsamplitude"
+        },
+        {
+          "text": "Welchen Wert hat das Attribut @attribute der Maschine @module?"
+        },
+        {
+          "text": "Welchen Wert hat @attribute von @module?"
+        },
+        {
+          "text": "Wie niedrig ist @attribute?"
+        },
+        {
+          "text": "Wie ist die @attribute?"
+        },
+        {
+          "text": "spannung bosch"
+        },
+        {
+          "text": "bitte @attribute am @module angeben"
+        },
+        {
+          "text": "Wie ist der @attribute?"
+        },
+        {
+          "text": "Was ist @attribute?"
+        },
+        {
+          "text": "Was ist dein @attribute?"
+        },
+        {
+          "text": "Wie hoch ist dein @attribute?"
+        },
+        {
+          "text": "Wie ist deine @attribute?"
+        },
+        {
+          "text": "Wie ist die @attribute von @module?"
+        },
+        {
+          "text": "Wie hoch ist der @attribute bei @module?"
+        },
+        {
+          "text": "Welche Ausprägung hat @attribute?"
+        },
+        {
+          "text": "Was sagt die @attribute bei @module?"
+        },
+        {
+          "text": "Was sagt der @attribute bei @module?"
+        },
+        {
+          "text": "Was hoch ist das @attribute bei @module?"
+        },
+        {
+          "text": "Was ist das @attribute von @module?"
+        },
+        {
+          "text": "Wie ist das @attribute?"
+        },
+        {
+          "text": "Was ist der @attribute von @module?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "customer",
+      "examples": [
+        {
+          "text": "Wo ist der Kunde @sys-number?"
+        },
+        {
+          "text": "Wo befindet sich der Kunde @sys-number?"
+        },
+        {
+          "text": "Wo ist Customer @sys-numbeR?"
+        },
+        {
+          "text": "Wo finde ich Kunde @sys-number?"
+        },
+        {
+          "text": "für wen schaffst du"
+        },
+        {
+          "text": "Wo liegt Kunde @sys-number?"
+        },
+        {
+          "text": "Wo befindet sich Kunde @sys-number?"
+        },
+        {
+          "text": "Wo befindet sich Customer @sys-number?"
+        },
+        {
+          "text": "Wo liegt Customer @sys-number?"
+        },
+        {
+          "text": "Wo ist Kunde @sys-number?"
+        },
+        {
+          "text": "bei welchem kunden bist du"
+        },
+        {
+          "text": "Wo befindet sich der Customer @sys-number?"
+        }
+      ]
+    },
+    {
+      "intent": "set-context-module",
+      "examples": [
+        {
+          "text": "Setze Kontext-Modul: @module"
+        }
+      ],
+      "description": "Wird programmatisch aufgerufen - keine Beispiele hinzufügen!"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "position",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "eins",
+            "ein",
+            "nummer eins"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "drei",
+            "nummer drei"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": [
+            "nummer fünf",
+            "fünft"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "zwei",
+            "nummer 2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "vier",
+            "nummer vier"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "module",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mica",
+          "synonyms": [
+            "Harting Mica",
+            "Edge Device",
+            "Mika"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pilz-Lager",
+          "synonyms": [
+            "Lagermodul",
+            "Lager",
+            "Pilz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mettler-Toledo ICS469",
+          "synonyms": [
+            "ics469",
+            "Mettler ICS469",
+            "ICS",
+            "Mettler ICS",
+            "Toledo ICS",
+            "Toledo ICS469"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Festo-Gravieren",
+          "synonyms": [
+            "Festo Gravieren",
+            "Festo Gravur",
+            "Festo-Gravur",
+            "Gravieren",
+            "Gravur",
+            "Festo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Harting-Deckelmontage",
+          "synonyms": [
+            "Montage",
+            "Deckelmontage",
+            "Deckel",
+            "Harting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mettler Toledo-Waage",
+          "synonyms": [
+            "Toledo-Waage",
+            "Mettler-Waage",
+            "Mettler Toledo",
+            "Toledo",
+            "Mettler",
+            "Smart-Waage",
+            "Waage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Minitec/TE-Brückenmodul",
+          "synonyms": [
+            "Minitec TE",
+            "Minitec Brücke",
+            "Minitec-Brücke",
+            "Brückenmodul",
+            "Brücke",
+            "Minitec-TE",
+            "Minitec/TE",
+            "Minitec"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Phoenix Contact-Laserbeschriftung",
+          "synonyms": [
+            "Phoenix Contact Laserbeschriftung",
+            "Phoenix-Contact",
+            "Laserbeschriftung",
+            "Lasergravur",
+            "Laser",
+            "Contact",
+            "Phoenix Contact",
+            "Phoenix"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Docking-Station 2",
+          "synonyms": [
+            "dock2",
+            "Station 2",
+            "Docking 2",
+            "Docking-2",
+            "Station-2",
+            "Dock-2",
+            "dockingstation2",
+            "docking2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lapp-Qualitätskontrolle",
+          "synonyms": [
+            "Kontrolle",
+            "Qualität",
+            "Qualitätskontrolle",
+            "Lapp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Handarbeitsplatz",
+          "synonyms": [
+            "HAP",
+            "Handarbeit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Docking-Station 3",
+          "synonyms": [
+            "dockingstation3",
+            "dockingstation 3",
+            "dock3",
+            "docking3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Robotino",
+          "synonyms": [
+            "festo robotino",
+            "Beförderungsmittel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Docking-Station 1",
+          "synonyms": [
+            "Station-1",
+            "Docking-1",
+            "Dock-1",
+            "dock 1",
+            "Station 1",
+            "Docking 1",
+            "docking1",
+            "dockingstation1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bosch Rexroth-Federmontage",
+          "synonyms": [
+            "Bosch Rexroth",
+            "Bosch Federmontage",
+            "Rexroth Federmontage",
+            "Montage",
+            "Rexroth-Federmontage",
+            "Bosch-Federmontage",
+            "Bosch-Rexroth",
+            "Rexroth",
+            "Bosch",
+            "Federmontage",
+            "Feder"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "attribute",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "PickupId",
+          "synonyms": [
+            "Abhol ID"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EURangeViolation",
+          "synonyms": [
+            "Verletzung EU Reichweite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IncomingCustomer",
+          "synonyms": [
+            "eingehender Kunde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IncomingModule",
+          "synonyms": [
+            "eingehendes Modul"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OutgoingOrder",
+          "synonyms": [
+            "ausgehende Bestellung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PickupConfirm",
+          "synonyms": [
+            "Abholbestätigung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BatteryVoltage",
+          "synonyms": [
+            "Batteriezustand",
+            "Ladezustand",
+            "Spannung",
+            "Saft"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ReturnModule",
+          "synonyms": [
+            "Modul zurückgeben"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PickupOrder",
+          "synonyms": [
+            "Abhol-Bestellung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CanReceive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "IncomingOrder",
+          "synonyms": [
+            "eingehende Bestellung",
+            "eingehende Order",
+            "neue Order"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ProductionStatus",
+          "synonyms": [
+            "Produktionsstatus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Feed",
+          "synonyms": [
+            "Zufuhr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ErrorMessage",
+          "synonyms": [
+            "Fehlermeldung",
+            "Fehlermessage",
+            "Fehlernachricht"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PickupDestination",
+          "synonyms": [
+            "Ziel für Abholung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PickupModule",
+          "synonyms": [
+            "Abhold-Modul",
+            "Abhol ModulID"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PortBackRemote",
+          "synonyms": [
+            "angrenzendes Modul Rückseite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PortBackNeighborPresent",
+          "synonyms": [
+            "Modul Rückseite präsent"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PortBackId",
+          "synonyms": [
+            "Portid Rückseite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DropoffOrder",
+          "synonyms": [
+            "eingehende Bestellung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NewOrderCustomer",
+          "synonyms": [
+            "neuer Bestellkunde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ErrorCode",
+          "synonyms": [
+            "Fehlercode"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ProcessTime",
+          "synonyms": [
+            "Verarbeitungszeit",
+            "process time",
+            "prozessdauer",
+            "prozesszeit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OperatingHours",
+          "synonyms": [
+            "Uptime",
+            "Laufzeit",
+            "Betriebsstunden",
+            "operating hours"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AmplitudeMean",
+          "synonyms": [
+            "Durchschnitt",
+            "Mittelwert Amplitude",
+            "Mittelwert Vibrationsamlitude",
+            "Mittelwert Vibration",
+            "Mittelwert der Vibrationen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AmplitudeBandWidth",
+          "synonyms": [
+            "Bandbreite Amplitude",
+            "Amplitudenbandbreite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EmergencyStopExternal",
+          "synonyms": [
+            "external stop",
+            "externer Nothalt",
+            "externer Notaus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ApparentPower",
+          "synonyms": [
+            "Schleichstrom",
+            "Kriechstrom",
+            "Scheinleistung",
+            "apparent power"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DeviceType",
+          "synonyms": [
+            "Gerättyp",
+            "Gerätetyp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EmergencyStopInternal",
+          "synonyms": [
+            "internal stop",
+            "Nothalt",
+            "Notstop"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ModuleDescription",
+          "synonyms": [
+            "Modulbeschreibung",
+            "Modulname"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Position",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RobState",
+          "synonyms": [
+            "Robotino Status"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "InterfaceVersionMajor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "EnergyConsumption",
+          "synonyms": [
+            "Energieverbrauch",
+            "Strom",
+            "Stromverbrauch",
+            "energy usage",
+            "energy consumption",
+            "Energieeinsatz",
+            "energienutzung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PickupCustomer",
+          "synonyms": [
+            "Kundennummer zur Abholung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PortLeftRemote",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortLeftCloseGate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DoSend",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortRightCloseGate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ProcessingOrder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortLeftGateState",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortRightId",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DoSendReturn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "StopFeed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "StopFeedReturn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortRightDetect",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortLeftNeighborPresent",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CanSend",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortRightRemote",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "OperatingMode",
+          "synonyms": [
+            "Betriebsmodus",
+            "Modus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TransportErrorMessage",
+          "synonyms": [
+            "Transport-Fehlermeldung",
+            "Transportfehlertext"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IncomingPriority",
+          "synonyms": [
+            "eingehende Priorität",
+            "Priorität"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TransportStatus",
+          "synonyms": [
+            "Transportstatus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NewOrderTrigger",
+          "synonyms": [
+            "neuer Bestellanstoß",
+            "neue Bestellung Trigger"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OutgoingPriority",
+          "synonyms": [
+            "ausgehende Priorität"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ReturnOrder",
+          "synonyms": [
+            "Bestellung zurückgeben"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ReturnPriority",
+          "synonyms": [
+            "Retour-Priorität"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ReturnCustomer",
+          "synonyms": [
+            "Retour-Kunde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OutgoingCustomer",
+          "synonyms": [
+            "ausgehender Kunde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ProcessEnergy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SendFeedReturn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ETAHigher",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortRightGateState",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ProcessingCustomer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortLeftDetect",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortRightNeighbourPresent",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CanReceiveReturn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RequestETAHigher",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TransportErrorCode",
+          "synonyms": [
+            "Fehlercode",
+            "Transport-Fehler"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DropoffNotify",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DropoffId",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DropoffCustomer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DropoffConfirm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DropoffCompleteId",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DropoffCancelId",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DropoffCancelConfirm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "InterfaceVersionMinor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DropoffSource",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CanSendReturn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SendFeed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PortLeftId",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FeedReturn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PickupRequest",
+          "synonyms": [
+            "Abhol-Anfrage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AreaName",
+          "synonyms": [
+            "Bereichsname"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FalseState",
+          "synonyms": [
+            "falscher Zustand"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ModuleId",
+          "synonyms": [
+            "Modul ID",
+            "Element ID",
+            "Modulnummer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OutgoingModule",
+          "synonyms": [
+            "ausgehendes Modul",
+            "ausgehendes Element"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NewOrderNumber",
+          "synonyms": [
+            "neue Bestellnummer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NumberUnderloads",
+          "synonyms": [
+            "Anzahl Unterbelastung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NumberOverloads",
+          "synonyms": [
+            "Anzahl Überbelastung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "StartRobot",
+          "synonyms": [
+            "Roboter starten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "StabilizationTime",
+          "synonyms": [
+            "Stabilisierungszeit",
+            "Einlaufdauer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "StableWeight",
+          "synonyms": [
+            "stabiles Gewicht"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TrueState",
+          "synonyms": [
+            "wahrer Status"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WeightUnit",
+          "synonyms": [
+            "Gewichtseinheit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WeightValue",
+          "synonyms": [
+            "Gewichtswert"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AppendedModuleId",
+          "synonyms": [
+            "angehängte Modul-ID"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DockingMode",
+          "synonyms": [
+            "Docking-Modus"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nth",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "dritter",
+            "dritte",
+            "dritten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "zweite",
+            "zweiter",
+            "zweiten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "erster",
+            "erste",
+            "ersten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "vierter",
+            "vierte",
+            "vierten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": [
+            "fünfte",
+            "fünfter",
+            "fünften"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    }
+  ],
+  "language": "de",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "Smart Factory Module",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "handling error",
+      "output": {
+        "text": {
+          "values": [
+            "Es gab ein Problem mit dem Cloud Functions call: <? $my_result.cloud_functions_call_error ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1557146703204",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error",
+      "dialog_node": "node_3_1557146703224",
+      "previous_sibling": "node_2_1557146703224"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sie müssen eine Kundennummer eingeben"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1557146703204",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1557146703225",
+      "previous_sibling": "slot_15_1557161078993"
+    },
+    {
+      "type": "standard",
+      "title": "respond",
+      "output": {
+        "text": {
+          "values": [
+            "\"<? $my_result.text ?>\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1557146703204",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error == null",
+      "dialog_node": "node_2_1557146703224",
+      "previous_sibling": "handler_14_1557146703225"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1557146703204",
+      "metadata": {},
+      "variable": "$customer",
+      "dialog_node": "slot_15_1557161078993"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Das ist kein bekanntes Modul, bitte versuchen Sie es nochmal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_27_1556731875752",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_30_1556731875752",
+      "previous_sibling": "handler_29_1556731875752"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_27_1556731875752",
+      "context": {
+        "module": "@module"
+      },
+      "metadata": {},
+      "conditions": "@module",
+      "event_name": "input",
+      "dialog_node": "handler_29_1556731875752",
+      "previous_sibling": "handler_28_1556731875752"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_27_1556731875752",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_31_1556731875752",
+      "previous_sibling": "handler_30_1556731875752"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Welche Maschine meinen Sie?"
+      },
+      "parent": "slot_27_1556731875752",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_28_1556731875752"
+    },
+    {
+      "type": "standard",
+      "title": "handling error",
+      "output": {
+        "text": {
+          "values": [
+            "Es gab ein Problem mit dem Cloud Functions call: <? $my_result.cloud_functions_call_error ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1556305196620",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error",
+      "dialog_node": "node_4_1556305196633",
+      "previous_sibling": "node_3_1556305196633"
+    },
+    {
+      "type": "standard",
+      "title": "respond",
+      "output": {
+        "text": {
+          "values": [
+            "\"<? $my_result.text ?>\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1556305196620",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error == null",
+      "dialog_node": "node_3_1556305196633",
+      "previous_sibling": "handler_12_1556692294532"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_2_1556305196620",
+      "event_name": "focus",
+      "dialog_node": "handler_12_1556692294532",
+      "previous_sibling": "slot_13_1556692294543"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1556305196620",
+      "metadata": {},
+      "variable": "$number",
+      "dialog_node": "slot_13_1556692294543"
+    },
+    {
+      "type": "standard",
+      "title": "respond",
+      "output": {
+        "text": {
+          "values": [
+            "\"<? $my_result.text ?>\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1558111589122",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error == null",
+      "dialog_node": "node_2_1558111589136",
+      "previous_sibling": "handler_9_1558111589136"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Welche Maschine meinen Sie?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1558111589122",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_9_1558111589136",
+      "previous_sibling": "slot_4_1558111589136"
+    },
+    {
+      "type": "standard",
+      "title": "handling error",
+      "output": {
+        "text": {
+          "values": [
+            "Es gab ein Problem mit dem Cloud Functions call: <? $my_result.cloud_functions_call_error ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1558111589122",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error",
+      "dialog_node": "node_3_1558111589136",
+      "previous_sibling": "node_2_1558111589136"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1558111589122",
+      "metadata": {},
+      "variable": "$module",
+      "dialog_node": "slot_4_1558111589136"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1558111589136",
+      "context": {
+        "module": "@module"
+      },
+      "metadata": {},
+      "conditions": "@module",
+      "event_name": "input",
+      "dialog_node": "handler_6_1558111589136",
+      "previous_sibling": "handler_5_1558111589136"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Das ist kein bekanntes Modul, bitte versuchen Sie es nochmal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1558111589136",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_7_1558111589136",
+      "previous_sibling": "handler_6_1558111589136"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1558111589136",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_8_1558111589136",
+      "previous_sibling": "handler_7_1558111589136"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Welche Maschine meinen Sie?"
+      },
+      "parent": "slot_4_1558111589136",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1558111589136"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_13_1556692294543",
+      "context": {
+        "number": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_14_1556692294543",
+      "previous_sibling": "handler_15_1556692294543"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Das ist keine Bestellnummer"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_13_1556692294543",
+      "event_name": "nomatch",
+      "dialog_node": "handler_17_1556692324761",
+      "previous_sibling": "handler_14_1556692294543"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Welche Bestellung wollen Sie wissen?"
+      },
+      "parent": "slot_13_1556692294543",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_15_1556692294543"
+    },
+    {
+      "type": "standard",
+      "title": "handling error",
+      "output": {
+        "text": {
+          "values": [
+            "Es gab ein Problem mit dem Cloud Functions call: <? $my_result.cloud_functions_call_error ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1556620107705",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error",
+      "dialog_node": "node_3_1556620107719",
+      "previous_sibling": "node_2_1556620107719"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1556620107705",
+      "metadata": {},
+      "variable": "$attribute",
+      "dialog_node": "slot_7_1556691648280",
+      "previous_sibling": "slot_2_1556691422822"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Welches Attribut für welches Modul wollen Sie wissen?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1556620107705",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_1_1556691422811",
+      "previous_sibling": "slot_7_1556691648280"
+    },
+    {
+      "type": "standard",
+      "title": "respond",
+      "output": {
+        "text": {
+          "values": [
+            "\"<? $my_result.text ?>\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1556620107705",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error == null",
+      "dialog_node": "node_2_1556620107719",
+      "previous_sibling": "handler_1_1556691422811"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1556620107705",
+      "metadata": {},
+      "variable": "$module",
+      "dialog_node": "slot_2_1556691422822"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Das ist kein bekanntes Modul, bitte versuchen Sie es nochmal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1556691422822",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_6_1556691487006",
+      "previous_sibling": "handler_3_1556691422822"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1556691422822",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_5_1556691487006",
+      "previous_sibling": "handler_6_1556691487006"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1556691422822",
+      "context": {
+        "module": "@module"
+      },
+      "metadata": {},
+      "conditions": "@module",
+      "event_name": "input",
+      "dialog_node": "handler_3_1556691422822",
+      "previous_sibling": "handler_4_1556691422822"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Für welches Modul wollen Sie die Attribute sehen?"
+      },
+      "parent": "slot_2_1556691422822",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1556691422822"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1557161078993",
+      "context": {
+        "customer": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_16_1557161078993",
+      "previous_sibling": "handler_17_1557161078993"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Welchen Kunden meinen Sie?"
+      },
+      "parent": "slot_15_1557161078993",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1557161078993"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Das ist kein bekanntes Modul, bitte versuchen Sie es nochmal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1557134194574",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1557134194574",
+      "previous_sibling": "handler_8_1557134194574"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1557134194574",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_10_1557134194574",
+      "previous_sibling": "handler_9_1557134194574"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1557134194574",
+      "context": {
+        "module": "@module"
+      },
+      "metadata": {},
+      "conditions": "@module",
+      "event_name": "input",
+      "dialog_node": "handler_8_1557134194574",
+      "previous_sibling": "handler_7_1557134194574"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Welche Maschine meinen Sie?"
+      },
+      "parent": "slot_6_1557134194574",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1557134194574"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_19_1556692440195",
+      "context": {
+        "module": "@module"
+      },
+      "metadata": {},
+      "conditions": "@module",
+      "event_name": "input",
+      "dialog_node": "handler_20_1556692440195",
+      "previous_sibling": "handler_21_1556692440195"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Das ist kein bekanntes Modul"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_19_1556692440195",
+      "event_name": "nomatch",
+      "dialog_node": "handler_23_1556692458682",
+      "previous_sibling": "handler_20_1556692440195"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Welches Modul?"
+      },
+      "parent": "slot_19_1556692440195",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_21_1556692440195"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Welche Maschine meinen Sie?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1557134194554",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_11_1557134194574",
+      "previous_sibling": "slot_6_1557134194574"
+    },
+    {
+      "type": "standard",
+      "title": "respond",
+      "output": {
+        "text": {
+          "values": [
+            "\"<? $my_result.text ?>\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1557134194554",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error == null",
+      "dialog_node": "node_4_1557134194574",
+      "previous_sibling": "handler_11_1557134194574"
+    },
+    {
+      "type": "standard",
+      "title": "handling error",
+      "output": {
+        "text": {
+          "values": [
+            "Es gab ein Problem mit dem Cloud Functions call: <? $my_result.cloud_functions_call_error ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1557134194554",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error",
+      "dialog_node": "node_5_1557134194574",
+      "previous_sibling": "node_4_1557134194574"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1557134194554",
+      "metadata": {},
+      "variable": "$module",
+      "dialog_node": "slot_6_1557134194574"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1556691648280",
+      "context": {
+        "attribute": "@attribute"
+      },
+      "metadata": {},
+      "conditions": "@attribute",
+      "event_name": "input",
+      "dialog_node": "handler_8_1556691648280",
+      "previous_sibling": "handler_9_1556691648280"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Das ist kein bekanntes Attribut, bitte versuchen Sie es nochmal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1556691648280",
+      "event_name": "nomatch",
+      "dialog_node": "handler_11_1556691684152",
+      "previous_sibling": "handler_8_1556691648280"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1556691648280",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1556691684152",
+      "previous_sibling": "handler_11_1556691684152"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Welches Attribut wollen Sie wissen?"
+      },
+      "parent": "slot_7_1556691648280",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_9_1556691648280"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Welche Maschine meinen Sie?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_24_1556731875726",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_37_1556731875752",
+      "previous_sibling": "slot_27_1556731875752"
+    },
+    {
+      "type": "standard",
+      "title": "respond",
+      "output": {
+        "text": {
+          "values": [
+            "\"<? $my_result.text ?>\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_24_1556731875726",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error == null",
+      "dialog_node": "node_25_1556731875752",
+      "previous_sibling": "handler_37_1556731875752"
+    },
+    {
+      "type": "standard",
+      "title": "handling error",
+      "output": {
+        "text": {
+          "values": [
+            "Es gab ein Problem mit dem Cloud Functions call: <? $my_result.cloud_functions_call_error ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_24_1556731875726",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error",
+      "dialog_node": "node_26_1556731875752",
+      "previous_sibling": "node_25_1556731875752"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_24_1556731875726",
+      "metadata": {},
+      "variable": "$module",
+      "dialog_node": "slot_27_1556731875752"
+    },
+    {
+      "type": "standard",
+      "title": "respond",
+      "output": {
+        "text": {
+          "values": [
+            "\"<? $my_result.text ?>\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1555412620905",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error == null",
+      "dialog_node": "node_1_1555489070010",
+      "previous_sibling": "handler_18_1556692440185"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_1_1555412620905",
+      "event_name": "focus",
+      "dialog_node": "handler_18_1556692440185",
+      "previous_sibling": "slot_19_1556692440195"
+    },
+    {
+      "type": "standard",
+      "title": "handling error",
+      "output": {
+        "text": {
+          "values": [
+            "Es gab ein Problem mit dem Cloud Functions call: <? $my_result.cloud_functions_call_error ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1555412620905",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error",
+      "dialog_node": "node_2_1555489151869",
+      "previous_sibling": "node_1_1555489070010"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1555412620905",
+      "metadata": {},
+      "variable": "$module",
+      "dialog_node": "slot_19_1556692440195"
+    },
+    {
+      "type": "standard",
+      "title": "handling error",
+      "output": {
+        "text": {
+          "values": [
+            "Es gab ein Problem mit dem Cloud Functions call: <? $my_result.cloud_functions_call_error ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1556206333817",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error",
+      "dialog_node": "node_3_1556206333828",
+      "previous_sibling": "node_2_1556206333827"
+    },
+    {
+      "type": "standard",
+      "title": "respond",
+      "output": {
+        "text": {
+          "values": [
+            "\"<? $my_result.message ?>\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1556206333817",
+      "metadata": {},
+      "conditions": "$my_result.cloud_functions_call_error == null",
+      "dialog_node": "node_2_1556206333827"
+    },
+    {
+      "type": "frame",
+      "title": "customers",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "actions": [
+        {
+          "name": "/kiradjiev@de.ibm.com_smartfactorykl/customers",
+          "type": "server",
+          "parameters": {
+            "uri": "https://cf20.mybluemix.net/module",
+            "mymodule": "$module"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_25_1556731875752"
+      },
+      "conditions": "#customers",
+      "dialog_node": "node_24_1556731875726",
+      "previous_sibling": "node_1_1557146703204"
+    },
+    {
+      "type": "standard",
+      "title": "visual-recognition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "actions": [
+        {
+          "name": "/kiradjiev@de.ibm.com_smartfactorykl/visualrecognition",
+          "type": "server",
+          "parameters": {},
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1556206333827"
+      },
+      "conditions": "#visual-recognition",
+      "dialog_node": "node_1_1556206333817",
+      "previous_sibling": "node_2_1556305196620"
+    },
+    {
+      "type": "frame",
+      "title": "status",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "actions": [
+        {
+          "name": "/kiradjiev@de.ibm.com_smartfactorykl/status",
+          "type": "server",
+          "parameters": {
+            "module": "$module"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1555489070010"
+      },
+      "conditions": "#health",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1555412620905",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1551703858219",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1552201298228",
+      "previous_sibling": "node_1_1558111589122"
+    },
+    {
+      "type": "frame",
+      "title": "customer",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "actions": [
+        {
+          "name": "/kiradjiev@de.ibm.com_smartfactorykl/customer1",
+          "type": "server",
+          "parameters": {
+            "uri": "https://cf20.mybluemix.net/module",
+            "customer": "$customer"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1557146703224"
+      },
+      "conditions": "#customer",
+      "dialog_node": "node_1_1557146703204",
+      "previous_sibling": "node_1_1556620107705"
+    },
+    {
+      "type": "frame",
+      "title": "reports",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "actions": [
+        {
+          "name": "/kiradjiev@de.ibm.com_smartfactorykl/orders",
+          "type": "server",
+          "parameters": {
+            "uri": "https://cf20.mybluemix.net/module",
+            "mymodule": "$module"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1558111589136"
+      },
+      "conditions": "#reports",
+      "dialog_node": "node_1_1558111589122",
+      "previous_sibling": "node_3_1557134194554"
+    },
+    {
+      "type": "frame",
+      "title": "orders",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "actions": [
+        {
+          "name": "/kiradjiev@de.ibm.com_smartfactorykl/orders",
+          "type": "server",
+          "parameters": {
+            "uri": "https://cf20.mybluemix.net/module",
+            "mymodule": "$module"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557134194574"
+      },
+      "conditions": "#orders",
+      "dialog_node": "node_3_1557134194554",
+      "previous_sibling": "node_24_1556731875726"
+    },
+    {
+      "type": "frame",
+      "title": "order",
+      "output": {},
+      "actions": [
+        {
+          "name": "/kiradjiev@de.ibm.com_smartfactorykl/order",
+          "type": "server",
+          "parameters": {
+            "uri": "https://cf20.mybluemix.net/module",
+            "sysNumber": "$number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1556305196633"
+      },
+      "conditions": "#order",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1556305196620",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1555412620905",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "attribute",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "actions": [
+        {
+          "name": "/kiradjiev@de.ibm.com_smartfactorykl/attribute",
+          "type": "server",
+          "parameters": {
+            "uri": "https://cf20.mybluemix.net/module",
+            "module": "$module",
+            "attribute": "$attribute"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$my_result"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1556620107719"
+      },
+      "conditions": "#attribute",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1556620107705",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1556206333817",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Hey!! Ich bin Watson. Was kann ich für dich tun?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#hallo",
+      "dialog_node": "node_1_1551703858219"
+    }
+  ],
+  "workspace_id": "83a72541-02ee-417e-b570-0a3f411303b1",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
